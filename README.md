@@ -48,4 +48,3 @@ Bu projenin lisans bilgileri. Genellikle MIT, GPL gibi standart bir lisans kulla
 
 ```
 
-Bu `README.md` dosyası, projenizin ana hatlarını ve temel kullanımını açıklar. İhtiyacınıza göre düzenlemeler yapabilir veya eklemeler yapabilirsiniz. Projeye özel detaylar eklemek, kod örnekleri sağlamak veya belirli bir bölümü genişletmek isterseniz, lütfen bildirin.
