@@ -46,5 +46,5 @@ Projeyi geliştirmek için aşağıdaki adımları izleyin:
 
 Bu projenin lisans bilgileri. Genellikle MIT, GPL gibi standart bir lisans kullanılır.
 
-```
+
 
