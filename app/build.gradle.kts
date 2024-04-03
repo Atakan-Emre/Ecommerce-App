@@ -2,11 +2,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("com.google.dagger.hilt.android") version "2.44" apply false
-   // id("kotlin-kapt")
-  //  id("com.google.dagger.hilt.android")
-  //  id("com.google.devtools.ksp")
     id("com.google.devtools.ksp") version "1.8.10-1.0.9" apply false
-
 }
 
 android {
@@ -59,8 +55,8 @@ android {
 
 dependencies {
 
-    val nav_version = "2.7.7"
-    val room_version = "2.6.1"
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -81,44 +77,42 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     //Navigation Components
-    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
-    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
     //Picaso
-    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation (libs.picasso)
 
     //View Pager2
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    implementation(libs.androidx.viewpager2)
 
     //Retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation(libs.retrofit)
 
     //Gson
-    implementation("com.squareup.retrofit2:converter-gson:2.10.1")
-    implementation("com.squareup.retrofit2:converter-moshi:2.10.1")
-    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+    implementation(libs.converter.gson)
+    implementation(libs.converter.moshi)
+    implementation(libs.moshi.kotlin)
 
     //okhttp
-    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation(libs.logging.interceptor)
 
     //mvvm
-    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation(libs.androidx.lifecycle.extensions)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     //mvvm
-    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation(libs.androidx.lifecycle.extensions)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     //dagger hilt
-    implementation("com.google.dagger:hilt-android:2.48")
-    //ksp("com.google.dagger:hilt-android-compiler:2.44")
-    //ksp("androidx.hilt:hilt-compiler:1.1.0")
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
 
     //room
-    implementation("androidx.room:room-runtime:$room_version")
-   // ksp("androidx.room:room-compiler:2.5.0")
-    implementation("androidx.room:room-ktx:$room_version")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+
 
 
 }
