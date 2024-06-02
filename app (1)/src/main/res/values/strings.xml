@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="title">GIGABYTE AORUS 15P KD</string>
+    <string name="description">i7-12700H\n32GB DDR4\nRTX3070Ti GDDR6 8GB\n1TB SSD\n17.3\" FHD 144Hz</string>
+    <string name="rate">4.2</string>
+    <string name="category">Notebook</string>
+    <string name="search">Search...</string>
+    <string name="add_bag">Add To Bag</string>
+    <string name="home">Home</string>
+    <string name="bag">Basket</string>
+    <string name="price">%s ₺</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="all">All</string>
+    <string name="notebook">Notebook</string>
+    <string name="monitor">Monitor</string>
+    <string name="console">Console</string>
+    <string name="desktop">Desktop</string>
+    <string name="headset">Headset</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="profile">Profile</string>
+    <string name="home_address">Address</string>
+    <string name="update">Update</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="cart_number">Cart Number</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="cvv">Cvv</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="payment">Payment</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="total_price">Total Price: 0.0₺</string>
+    <string name="favorite">Favorites</string>
+    <string name="favorite_message">Favorites list empty</string>
+
+</resources>
